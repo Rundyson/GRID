@@ -505,6 +505,9 @@ img {
   align-items: baseline;
   font-family: var(--poppins);
 }
+.oldNews--card1--details p {
+  padding-top: 1rem;
+}
 .oldNews--card2--details {
   display: flex;
   flex-direction: column;
@@ -557,6 +560,7 @@ img {
   margin-bottom: 2rem;
 }
 
+
 /* REUSABLE */
 .colorRed {
   justify-content: space-between;
@@ -593,6 +597,10 @@ img {
   font-weight: 500;
   border-bottom: 2px solid rgba(0, 0, 0, 0.178);
   margin-bottom: 3rem;
+}
+.social{
+  display: flex;
+  gap: 1rem;
 }
 .social li a {
   color: white;
